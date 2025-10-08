@@ -1,0 +1,18 @@
+import type { Meta, StoryObj } from '@storybook/react'
+import { Loader } from './Loader'
+
+const meta: Meta<typeof Loader> = {
+  title: 'Components/Loader',
+  component: Loader,
+}
+export default meta
+
+type Story = StoryObj<typeof Loader>
+
+export const Default: Story = {
+  args: { label: 'Loading…' },
+}
+
+export const Fullscreen: Story = {
+  args: { label: 'Loading data', fullscreen: true },
+}
