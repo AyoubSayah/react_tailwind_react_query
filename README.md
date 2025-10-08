@@ -1,5 +1,4 @@
 
-```
 🧩 Modular React Application
 
 This project is a scalable modular React application built with Vite and organized for production-grade development.
@@ -30,7 +29,7 @@ E2E Testing	Playwright
 Package Manager	pnpm
 
 ![flow](https://raw.githubusercontent.com/AyoubSayah/react_tailwind_react_query/refs/heads/develop/public/flow.png)
-
+```
 
 📁 Project Structure
 src/
@@ -84,6 +83,7 @@ src/
 │   └─ ...
 │
 └─ main.tsx                  # App entry (React + Router + Providers)
+```
 
 ⚙️ Installation & Setup
 # 1️⃣ Clone the repository
@@ -172,6 +172,7 @@ pnpm exec playwright test
 💬 Smooth Suspense loading states
 
 🧰 Playwright-based end-to-end testing
+```
 
 📦 Scripts
 Command	Description
