@@ -29,7 +29,7 @@ E2E Testing	Playwright
 
 Package Manager	pnpm
 
-![flow](./public//flow.png)
+![flow](https://raw.githubusercontent.com/AyoubSayah/react_tailwind_react_query/refs/heads/develop/public/flow.png)
 
 
 📁 Project Structure
@@ -181,16 +181,3 @@ pnpm preview	Preview the production build
 pnpm storybook	Run Storybook
 pnpm exec playwright test	Run Playwright end-to-end tests
 pnpm lint	Run ESLint
-🧑‍💻 Best Practices
-
-Use React Query for all async operations
-
-Wrap async routes/components in <Suspense> with proper fallbacks
-
-Use MSW for mocking instead of local JSON or hardcoded data
-
-Keep layout components minimal — logic should live in hooks or providers
-
-Add Storybook stories for each new shared component
-
-Prefer realistic content — avoid generic placeholders
